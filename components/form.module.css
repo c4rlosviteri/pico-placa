@@ -1,0 +1,20 @@
+.form {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 320px;
+}
+
+.formHeading {
+  color: var(--white);
+  font-size: 48px;
+  margin-bottom: 24px;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.formWrapper {
+  display: grid;
+  grid-gap: 16px 20px;
+  grid-template-columns: repeat(2, 1fr);
+}

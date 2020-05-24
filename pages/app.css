@@ -1,0 +1,22 @@
+:root {
+  --green: #75daad;
+  --outline: rgba(240, 240, 240, 0.5);
+  --red: #d63447;
+  --tomato: #f57b51;
+  --white: #ffffff;
+}
+
+html {
+  background: url("../public/uio-cover.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+body {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  font-family: "Source Sans Pro";
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
